@@ -1,0 +1,121 @@
+{
+  "buildCommand": "npm run build && node scripts/prepare-vercel-output.mjs",
+  "outputDirectory": "dist",
+  "installCommand": "npm ci --no-audit --no-fund",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": ".*text/markdown.*"
+        }
+      ],
+      "destination": "/api/home-markdown"
+    },
+    {
+      "source": "/about",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/ecosystem",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/swap",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/nft-launchpad",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/legacy-vault",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/dreamweaver",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/staking",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/treasury",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/merch",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/kids",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/whitepaper",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/faq",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/security",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/site-shell.html"
+    },
+    {
+      "source": "/",
+      "destination": "/site-shell.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</llms.txt>; rel=\"describedby\"; type=\"text/plain\", </>; rel=\"alternate\"; type=\"text/markdown\""
+        }
+      ]
+    },
+    {
+      "source": "/((?!api/).*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/site-shell.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ],
+  "build": {
+    "env": {
+      "NODE_VERSION": "20"
+    }
+  }
+}
