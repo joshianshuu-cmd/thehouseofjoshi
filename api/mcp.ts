@@ -21,7 +21,7 @@ const pages = [
   { title: "Kingdom Within", url: "https://kingdomwithin.thehouseofjoshi.com/", summary: "Scripture geometry and creative exploration." },
   { title: "Kaboom", url: "https://kaboom.thehouseofjoshi.com/", summary: "House of Joshi project." },
   { title: "Joshi Astrals", url: "https://joshiastrals.thehouseofjoshi.com/", summary: "House of Joshi project." },
-  { title: "NFT Marketplace", url: "https://nftmarketplace.thehouseofjoshi.com/", summary: "Explore and trade ecosystem NFTs." },
+  { title: "Aura", url: "https://aura.thehouseofjoshi.com/", summary: "Explore and trade ecosystem NFTs." },
 ];
 
 type JsonRpcRequest = { jsonrpc?: string; id?: string | number | null; method?: string; params?: any };

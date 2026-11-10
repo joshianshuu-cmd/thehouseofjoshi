@@ -15,7 +15,7 @@ export default function handler(_req: IncomingMessage, res: ServerResponse) {
     "- [Ecosystem overview](https://thehouseofjoshi.com/ecosystem)",
     "- [NFT Launchpad](https://thehouseofjoshi.com/nft-launchpad)",
     "- [Swap](https://thehouseofjoshi.com/swap)",
-    "- [NFT Marketplace](https://nftmarketplace.thehouseofjoshi.com/)",
+    "- [Aura](https://aura.thehouseofjoshi.com/)",
     "- [Kingdom Within](https://kingdomwithin.thehouseofjoshi.com/)",
     "- [Kaboom](https://kaboom.thehouseofjoshi.com/)",
     "- [Joshi Astrals](https://joshiastrals.thehouseofjoshi.com/)",

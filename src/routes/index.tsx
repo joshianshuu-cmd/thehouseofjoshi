@@ -32,7 +32,7 @@ const CHAINS = [
 const ECOSYSTEM = [
   { icon: Sparkles, name: "NFT Launchpad", to: "/nft-launchpad", desc: "Launch and mint sovereign collections through the official portal." },
   { icon: Layers, name: "Swap", to: "/swap", desc: "Multichain token swapping powered by the Joshi ecosystem." },
-  { icon: ShoppingBag, name: "NFT Marketplace", to: "https://nftmarketplace.thehouseofjoshi.com/", external: true, desc: "Trade and discover exclusive NFT collections across the Joshi ecosystem." },
+  { icon: ShoppingBag, name: "Aura", to: "https://aura.thehouseofjoshi.com/", external: true, desc: "Trade and discover exclusive NFT collections across the Joshi ecosystem." },
   { icon: Orbit, name: "Kingdom Within", to: "https://kingdomwithin.thehouseofjoshi.com/", external: true, desc: "Transform sacred text into verifiable frequency, color, and deterministic geometric form." },
   { icon: Vault, name: "Legacy Vault", to: "https://www.legacyvault.thehouseofjoshi.com/", external: true, desc: "Preserve heritage NFTs in a vault built for permanence." },
   { icon: Palette, name: "Dreamweaver", to: "/dreamweaver", desc: "Mint dreams as NFTs in a cinematic creative atmosphere." },

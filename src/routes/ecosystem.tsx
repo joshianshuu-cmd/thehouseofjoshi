@@ -11,7 +11,7 @@ export const Route = createFileRoute("/ecosystem")({
 const ITEMS = [
   { icon: Sparkles, name: "NFT Launchpad", to: "/nft-launchpad", desc: "The official portal for new Joshi NFT collections, drops and creator launches." },
   { icon: Layers, name: "Swap", to: "/swap", desc: "Secure multichain token swapping across the official Joshi ecosystem." },
-  { icon: ShoppingBag, name: "NFT Marketplace", to: "https://nftmarketplace.thehouseofjoshi.com/", external: true, desc: "Trade and discover exclusive NFT collections across the Joshi ecosystem." },
+  { icon: ShoppingBag, name: "Aura", to: "https://aura.thehouseofjoshi.com/", external: true, desc: "Trade and discover exclusive NFT collections across the Joshi ecosystem." },
   { icon: Orbit, name: "Kingdom Within", to: "https://kingdomwithin.thehouseofjoshi.com/", external: true, desc: "The Malkuta Protocol translates sacred text into verifiable frequency, color, and deterministic geometric form." },
   { icon: Vault, name: "Legacy Vault", to: "https://www.legacyvault.thehouseofjoshi.com/", external: true, desc: "A cinematic vault built for trust, permanence and future generations." },
   { icon: Palette, name: "Dreamweaver", to: "/dreamweaver", desc: "Mint the dreams as NFTs in an immersive creative atmosphere." },

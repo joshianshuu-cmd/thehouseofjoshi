@@ -10,7 +10,7 @@ const NAV = [
   { href: "https://kaboom.thehouseofjoshi.com/", label: "Kaboom" },
   { href: "https://joshiastrals.thehouseofjoshi.com/", label: "Joshi Astrals" },
   { to: "/swap", label: "Swap" },
-  { href: "https://nftmarketplace.thehouseofjoshi.com/", label: "NFT Marketplace" },
+  { href: "https://aura.thehouseofjoshi.com/", label: "Aura" },
   { to: "/nft-launchpad", label: "NFT Launchpad" },
   { to: "/legacy-vault", label: "Legacy Vault" },
   { to: "/dreamweaver", label: "Dreamweaver" },
