@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageHero, Section } from "@/components/sites/Section";
-import { Sparkles, Layers, Vault, Palette, Crown, Baby, ArrowRight, Orbit, ShoppingBag, Shirt } from "lucide-react";
+import { Sparkles, Layers, Vault, Palette, Crown, Baby, ArrowRight, Orbit, ShoppingBag, Shirt, Lightbulb } from "lucide-react";
 
 export const Route = createFileRoute("/ecosystem")({
   head: () => ({
@@ -18,6 +18,7 @@ const ITEMS = [
   { icon: Crown, name: "Treasury / DAO", to: "/treasury", desc: "Sovereign governance, treasury operations and on-chain proposals." },
   { icon: Baby, name: "Kids", to: "/kids", desc: "A safe educational realm where the next generation learns Web3." },
   { icon: Shirt, name: "Merch Store", to: "/merch", desc: "Cinematic luxury fashion for citizens of the sovereign kingdom." },
+  { icon: Lightbulb, name: "Crucible — The Idea Incubator", to: "https://crucible.thehouseofjoshi.com/", external: true, desc: "Ideas grow in the open." },
 ];
 
 function Ecosystem() {
