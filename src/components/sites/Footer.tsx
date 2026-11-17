@@ -31,6 +31,7 @@ export function Footer() {
           ["Kingdom Within","https://kingdomwithin.thehouseofjoshi.com/"],
           ["Kaboom","https://kaboom.thehouseofjoshi.com/"],
           ["Joshi Astrals","https://joshiastrals.thehouseofjoshi.com/"],
+          ["Crucible — The Idea Incubator","https://crucible.thehouseofjoshi.com/"],
         ]} />
         <FooterCol title="Discover" links={[
           ["About","/about"], ["Whitepaper","/whitepaper"], ["Kids","/kids"], ["Merch Store","/merch"], ["FAQ","/faq"], ["Security","/security"], ["Contact","/contact"],

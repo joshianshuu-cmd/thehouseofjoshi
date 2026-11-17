@@ -9,6 +9,7 @@ const NAV = [
   { href: "https://kingdomwithin.thehouseofjoshi.com/", label: "Kingdom Within" },
   { href: "https://kaboom.thehouseofjoshi.com/", label: "Kaboom" },
   { href: "https://joshiastrals.thehouseofjoshi.com/", label: "Joshi Astrals" },
+  { href: "https://crucible.thehouseofjoshi.com/", label: "Crucible" },
   { to: "/swap", label: "Swap" },
   { href: "https://aura.thehouseofjoshi.com/", label: "Aura" },
   { to: "/nft-launchpad", label: "NFT Launchpad" },
